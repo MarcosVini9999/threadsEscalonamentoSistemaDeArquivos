@@ -7,3 +7,4 @@
 ## PARTE 3 - SISTEMA DE ARQUIVOS
 
 ### obs: Para mais informações, porfavor ler o pdf na pasta docs
+## Membros: Marcos Vinicius e Yann Lucca
