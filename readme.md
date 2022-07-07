@@ -10,6 +10,8 @@
 
 ## PARTE 2 - ESCALONAMENTO
 
+### O algoritmo em C de escalonamento contém 11 funções, incluindo a main, ele conta com uma função para criar novos processo vazio, uma para limpar os processos através do comando free, outra para inserir os processos na lista de processos, outra função para inserir os processos em ordem no escalonamento SJF, para tornar uma lista linear em uma lista circular no escalonamento “round robin”, a função FIFO que irá imprimir os processos em ordem de chegada, a função SJF que vai imprimir os processos por ordem de chegada, a função RR que vai imprimir os processos por ordem de chegada com um determinado quantum(vai ser o período máximo que um processo por ser executado por vez), uma função que irá imprimir todas as informações dos processos digitadas pelo usuário e o seu respectivo ID, uma função que irá fazer o switch dos escalonamentos desejados, e por último a função main que irá chamar as funções anteriores para realizar um fluxo de projeto para o usuário. Ademais, os processos foram definidos por uma struct com os campos id, tempo de execução total, ordem de chegada e o ponteiro para o próximo processo, assim como foi criada uma variável global com o número total de processos desejados pelos usuários.
+
 ## PARTE 3 - SISTEMA DE ARQUIVOS
 
 ### obs: Para mais informações, porfavor ler o pdf na pasta docs
