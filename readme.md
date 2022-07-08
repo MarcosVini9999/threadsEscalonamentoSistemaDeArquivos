@@ -14,6 +14,8 @@
 
 ## PARTE 3 - SISTEMA DE ARQUIVOS
 
+### 3.1 No item 4º, foi pedido a escrita de um programa que comece em um determinado diretório e percorra a árvore de arquivos a partir daquele ponto registrando os tamanhos de todos os arquivos que encontrar. Quando finalizada essa tarefa, era necessário imprimir o resultado da árvore na forma de um histograma. Para isso o código abaixo foi feito, tendo duas funções além da função Main, sendo elas print_entrada e print_arvore_diretorios. A maior parte do código abaixo está em print_entrada., sendo que sua tarefa é imprimir (print) cada entrada de diretório. Já em print_arvore_diretorios, usa-se nftw() para chamá-lo para cada entrada de diretório que ele vê. Basicamente prin_entrada percorre os diretorios e imprime seus dados enquanto o print_arvore_diretorios monta a árvore de diretórios e ajuda a seguir o percurso por meio da função nftw(). O código é executado dentro da função main. O POSIX.1-2008 padronizou a função nftw(), basicamente ela percorre a árvore de diretórios localizada sob o diretório dirpath e chama fn() uma vez para cada entrada na árvore. Por padrão, os diretórios são tratados antes dos arquivos e subdiretórios que eles contêm (percurso de pré-ordem).
+
 ### obs: Para mais informações, porfavor ler o pdf na pasta docs
 
 ### Membros: Marcos Vinicius e Yann Lucca
